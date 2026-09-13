@@ -1,0 +1,6 @@
+{
+  "name": "Sushi Paulista – Culinária Asiática",
+  "description": "O melhor sushi de Águas Belas com menos arroz e muito mais recheio. Cardápio digital, pedidos online via WhatsApp e quiz interativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
