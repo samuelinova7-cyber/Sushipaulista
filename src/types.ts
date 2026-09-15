@@ -14,6 +14,7 @@ export interface QuizQuestion {
   id: number;
   question: string;
   subtitle?: string;
+  videoUrl?: string;
   options: {
     letter: 'A' | 'B' | 'C' | 'D';
     text: string;

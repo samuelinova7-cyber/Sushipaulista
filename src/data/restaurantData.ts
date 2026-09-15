@@ -55,6 +55,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     id: 1,
     question: "Qual é o seu nível de experiência com comida japonesa?",
     subtitle: "Selecione a opção que melhor define seu paladar:",
+    videoUrl: "https://res.cloudinary.com/h8uymlg5/video/upload/v1789510783/grok-video-2b3743a1-4e46-416e-9362-d7c5fa4bc3cd.mp4",
     options: [
       {
         letter: 'A',
@@ -86,6 +87,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     id: 2,
     question: "O que não pode faltar no seu pedido?",
     subtitle: "O detalhe essencial que conquista seu coração:",
+    videoUrl: "https://res.cloudinary.com/h8uymlg5/video/upload/v1789510874/grok-video-35c6b314-f1f9-41a7-a8af-f16a4e4dfae5.mp4",
     options: [
       {
         letter: 'A',
@@ -117,6 +119,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     id: 3,
     question: "Qual é o tamanho da sua fome hoje?",
     subtitle: "Escolha a proporção ideal para matar sua vontade:",
+    videoUrl: "https://res.cloudinary.com/h8uymlg5/video/upload/v1789510899/grok-video-22d4018f-907f-4bc3-bc9a-a56f3f0eca13.mp4",
     options: [
       {
         letter: 'A',
@@ -148,6 +151,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     id: 4,
     question: "Qual acompanhamento/estilo você prefere além do sushi tradicional?",
     subtitle: "Aquele item que fecha a refeição com chave de ouro:",
+    videoUrl: "https://res.cloudinary.com/h8uymlg5/video/upload/v1789510922/grok-video-cd90fcaf-02e7-4312-94a9-c2e9fc478139.mp4",
     options: [
       {
         letter: 'A',
@@ -179,6 +183,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     id: 5,
     question: "Qual é o momento perfeito para comer Sushi Paulista?",
     subtitle: "Qualquer hora é boa, mas hoje é especial:",
+    videoUrl: "https://res.cloudinary.com/h8uymlg5/video/upload/v1789510961/Chef_speaking_about_sushi_20260915190309.mp4",
     options: [
       {
         letter: 'A',
@@ -210,6 +215,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     id: 6,
     question: "O que você prioriza na hora de escolher um restaurante?",
     subtitle: "A sua garantia de uma experiência gastronômica impecável:",
+    videoUrl: "https://res.cloudinary.com/h8uymlg5/video/upload/v1789510983/Questioning_restaurant_choice_pr__20260915191832.mp4",
     options: [
       {
         letter: 'A',
