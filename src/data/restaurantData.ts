@@ -17,7 +17,7 @@ export const RESTAURANT_INFO = {
   instagramUrl: "https://www.instagram.com/sushi_paulista/",
   googleRating: 5.0,
   googleRatingCount: 148,
-  googleReviewUrl: "https://www.google.com/maps/search/?api=1&query=Sushi+Paulista+Aguas+Belas+PE",
+  googleReviewUrl: "https://g.page/r/CREy04Kn4NaOEBM/review",
   instaDeliveryUrl: "https://instadelivery.com.br/sushipaulistadelivery", // Official InstaDelivery order link
   mapsEmbedUrl: "https://maps.google.com/maps?q=Av.+Coronel+Constantino,+56,+Aguas+Belas+-+PE&t=&z=16&ie=UTF8&iwloc=&output=embed",
 };
@@ -248,34 +248,34 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
 export const QUIZ_RESULTS: Record<string, QuizResultProfile> = {
   iniciante_hot: {
     id: "iniciante_hot",
-    title: "Festival Hot Roll Crocante & Especial",
-    slogan: "Crocância Perfeita com Molho Tarê & Cream Cheese",
-    recommendedDish: "Combo Hot Supreme (20 peças quentes crocantes)",
-    dishDescription: "Perfeito para quem adora a fusão entre a casquinha panko super crocante, recheio farto de salmão, cream cheese derretido e fio especial de molho tarê e cebolinha fresca.",
-    piecesCount: "20 Peças",
-    priceEstimate: "R$ 49,90",
-    tags: ["Super Crocante", "Muito Recheio", "Molho Tarê Especial", "Campeão de Pedidos"],
-    imageUrl: "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&w=800&q=80",
-    whatsappMessage: "Olá, Sushi Paulista! Fiz o Quiz no site e meu resultado deu *Festival Hot Roll Crocante*! Gostaria de fazer meu pedido agora."
+    title: "Sushis para Iniciantes: Hot Rolls & Temakis Frito",
+    slogan: "A Escolha Perfeita para Quem Está Começando",
+    recommendedDish: "Combo 05 - 10 peças + 2 Temakis",
+    dishDescription: "Ideal para iniciantes! Hot rolls super crocantes ou temakis fritos repletos de salmão fresco, cream cheese cremoso e molho tarê.",
+    piecesCount: "10 Peças + 2 Temakis",
+    priceEstimate: "R$ 44,90",
+    tags: ["Hot Rolls", "Temakis Fritos", "Iniciantes", "Super Crocante"],
+    imageUrl: "https://res.cloudinary.com/gu3r4btn/image/upload/v1790106196/WhatsApp_Image_2026-09-22_at_4.41.10_PM_qo5kad.jpg",
+    whatsappMessage: "Olá, Sushi Paulista! Meu resultado no Quiz foi o *Combo 05 (10 peças + 2 temakis)* para iniciantes. Gostaria de pedir."
   },
   classico_salmao: {
     id: "classico_salmao",
-    title: "Combo Salmão Paulista Clássico",
-    slogan: "O Equilíbrio Perfeito: Menos Arroz + MUITO Salmão!",
-    recommendedDish: "Combo Clássico 20 Peças (Uramakis, Hossomakis & Niguiris)",
-    dishDescription: "O preferido dos clientes fiéis! Seleção nobre de Uramakis Philadelphia com gergelim torrado, Hossomakis de puro salmão fresco e Niguiris com lâminas generosas sobre pouco arroz temperado pelo Chef.",
-    piecesCount: "20 Peças",
-    priceEstimate: "R$ 54,90",
-    tags: ["Salmão Fresco", "Menos Arroz + Recheio", "Philadelphia", "Nota 5.0"],
-    imageUrl: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80",
-    whatsappMessage: "Olá, Sushi Paulista! Fiz o Quiz no site e meu resultado deu *Combo Salmão Clássico 20 Peças*! Gostaria de pedir."
+    title: "Combo Indicado para 2 Pessoas",
+    slogan: "Combo 08 — 20 Peças + 2 Temakis",
+    recommendedDish: "Combo 08 - 20 peças + 2 temakis",
+    dishDescription: "A pedida ideal para curtir a dois com fartura! 20 peças de sushi selecionadas com menos arroz e muito recheio + 2 temakis caprichados.",
+    piecesCount: "20 Peças + 2 Temakis",
+    priceEstimate: "R$ 69,90",
+    tags: ["Casal / Dupla", "20 Peças + 2 Temakis", "Menos Arroz + Recheio", "Favorito"],
+    imageUrl: "https://res.cloudinary.com/gu3r4btn/image/upload/v1790106196/WhatsApp_Image_2026-09-22_at_4.42.16_PM_oci26c.jpg",
+    whatsappMessage: "Olá, Sushi Paulista! Meu resultado no Quiz foi o *Combo 08 (20 peças + 2 temakis)*. Gostaria de pedir."
   },
   expert_sashimi: {
     id: "expert_sashimi",
     title: "Combinado Degustação do Chef Especial",
     slogan: "Para Apreciadores de Lâminas Nobres e Cortes de São Paulo",
     recommendedDish: "Combinado Premium do Chef (Sashimis Frescos + Dyo de Salmão + Niguiri)",
-    dishDescription: "Uma verdadeira obra de arte inspirada na experiência do Chef no Shopping Cidade São Paulo. Lâminas espessas de salmão cru selecionado, Dyos maçaricados com toque de geleia de pimenta e niguiris especiais.",
+    dishDescription: "Uma verdadeira obra de arte inspirada na experiência do Chef no Shopping Cidade São Paulo. Lâminas espessas de salmão cru selecionado, Dyos maçaricados e niguiris especiais.",
     piecesCount: "26 Peças",
     priceEstimate: "R$ 69,90",
     tags: ["Sashimi Fresco", "Dyo Especial", "Técnica Paulista", "Experiência Nobre"],
@@ -284,19 +284,52 @@ export const QUIZ_RESULTS: Record<string, QuizResultProfile> = {
   },
   familia_banquete: {
     id: "familia_banquete",
-    title: "Grande Banquete Paulista 50 Peças",
-    slogan: "Para Compartilhar a Melhor Mesa de Águas Belas com Todo Mundo!",
-    recommendedDish: "Mega Combo Especial 50 Peças Variadas",
-    dishDescription: "O banquete definitivo para a família ou amigos! Mix completo contendo Hot Rolls crocantes, Uramakis variados, Sashimis de Salmão, Niguiris e Joy com cream cheese. Fartura e qualidade inigualável.",
+    title: "Combo Indicado para até 4 Pessoas",
+    slogan: "Combo Av. Paulista - 50 Peças",
+    recommendedDish: "Combo Av. Paulista - 50 peças",
+    dishDescription: "O banquete definitivo para até 4 pessoas! 50 peças espetaculares de puro salmão, hot rolls e variados com o padrão profissional adquirido na Av. Paulista em São Paulo.",
     piecesCount: "50 Peças",
     priceEstimate: "R$ 119,90",
-    tags: ["50 Peças", "Ideal para Grupos", "Variedade Total", "Melhor Custo-Benefício"],
-    imageUrl: "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80",
-    whatsappMessage: "Olá, Sushi Paulista! Fiz o Quiz no site e meu resultado deu o *Mega Combo 50 Peças* para reunir a galera! Gostaria de pedir."
+    tags: ["Até 4 Pessoas", "Combo Av. Paulista", "50 Peças", "Padrão Chef SP"],
+    imageUrl: "https://res.cloudinary.com/gu3r4btn/image/upload/v1790106195/WhatsApp_Image_2026-09-22_at_4.42.25_PM_kksrl2.jpg",
+    whatsappMessage: "Olá, Sushi Paulista! Meu resultado no Quiz foi o *Combo Av. Paulista - 50 peças*. Quero fazer meu pedido!"
   }
 };
 
 export const MENU_ITEMS: MenuItem[] = [
+  {
+    id: "combo-paulista-50",
+    name: "Combo Av. Paulista - 50 Peças (Até 4 Pessoas)",
+    category: "combos",
+    description: "O banquete definitivo para até 4 pessoas! 50 peças espetaculares de puro salmão, hot rolls e variados com o padrão profissional adquirido na Av. Paulista em São Paulo.",
+    price: 119.90,
+    pieces: 50,
+    highlightTag: "Até 4 Pessoas 🏆",
+    popular: true,
+    image: "https://res.cloudinary.com/gu3r4btn/image/upload/v1790106195/WhatsApp_Image_2026-09-22_at_4.42.25_PM_kksrl2.jpg"
+  },
+  {
+    id: "combo-08-2P",
+    name: "Combo 08 - 20 Peças + 2 Temakis (2 Pessoas)",
+    category: "combos",
+    description: "A pedida ideal para curtir a dois com fartura! 20 peças de sushi selecionadas com menos arroz e muito recheio + 2 temakis caprichados.",
+    price: 69.90,
+    pieces: 20,
+    highlightTag: "Indicado para 2 Pessoas ⭐",
+    popular: true,
+    image: "https://res.cloudinary.com/gu3r4btn/image/upload/v1790106196/WhatsApp_Image_2026-09-22_at_4.42.16_PM_oci26c.jpg"
+  },
+  {
+    id: "combo-05-iniciante",
+    name: "Combo 05 - 10 Peças + 2 Temakis (Iniciantes)",
+    category: "combos",
+    description: "Sushis para iniciantes: Hot Rolls super crocantes ou Temakis fritos repletos de sabor, cream cheese e molho tarê.",
+    price: 44.90,
+    pieces: 10,
+    highlightTag: "Ideal para Iniciantes 🔥",
+    popular: true,
+    image: "https://res.cloudinary.com/gu3r4btn/image/upload/v1790106196/WhatsApp_Image_2026-09-22_at_4.41.10_PM_qo5kad.jpg"
+  },
   {
     id: "combo-50",
     name: "Mega Combo Especial 50 Peças",
@@ -305,7 +338,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 119.90,
     pieces: 50,
     highlightTag: "Mais Vendido da Casa 🏆",
-    popular: true,
+    popular: false,
     image: "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=600&q=80"
   },
   {
