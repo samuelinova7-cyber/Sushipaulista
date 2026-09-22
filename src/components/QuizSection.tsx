@@ -589,9 +589,6 @@ export function QuizSection({ onOpenMenu }: QuizSectionProps) {
                 <div className="absolute top-2.5 left-2.5 bg-zinc-950/85 backdrop-blur-md px-2 py-0.5 rounded-md border border-rose-500/40 text-[10px] font-bold text-rose-300">
                   {result.piecesCount}
                 </div>
-                <div className="absolute bottom-2.5 right-2.5 bg-amber-500 text-zinc-950 font-black px-2.5 py-0.5 rounded-md shadow-lg text-[11px]">
-                  {result.priceEstimate}
-                </div>
               </div>
 
               {/* Dish Details */}

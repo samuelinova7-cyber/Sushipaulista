@@ -59,25 +59,25 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     options: [
       {
         letter: 'A',
-        text: "Iniciante — Prefiro opções quentes ou fritos (Hot Roll).",
+        text: "Iniciante — Prefiro Hot Rolls ou Temakis Fritos.",
         icon: "🔥",
         scoreType: 'iniciante_hot'
       },
       {
         letter: 'B',
-        text: "Intermediário — Adoro o clássico: Salmão, Cream Cheese e Uramaki.",
+        text: "Intermediário — Adoro combos para curtir a dois com fartura.",
         icon: "🍣",
         scoreType: 'classico_salmao'
       },
       {
         letter: 'C',
-        text: "Avançado — Sou fã de lâminas de peixe cru fresco (Sashimi e Niguiri).",
+        text: "Avançado — Quero um combo completo e equilibrado.",
         icon: "🥢",
-        scoreType: 'expert_sashimi'
+        scoreType: 'classico_salmao'
       },
       {
         letter: 'D',
-        text: "Família/Grupo — Vim para dividir um combo grande com todo mundo!",
+        text: "Família/Grupo — Vim para dividir um combo grande de 50 peças!",
         icon: "🍱",
         scoreType: 'familia_banquete'
       }
@@ -91,7 +91,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     options: [
       {
         letter: 'A',
-        text: "Muito recheio e pouco arroz! 🍣",
+        text: "Muito recheio e menos arroz! 🍣",
         icon: "🍣",
         scoreType: 'classico_salmao'
       },
@@ -123,27 +123,27 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     options: [
       {
         letter: 'A',
-        text: "Uma entrada rápida ou um prato individual leve.",
+        text: "Uma porção individual leve (Combo 05 - 10 peças + 2 temakis).",
         icon: "🥗",
         scoreType: 'iniciante_hot'
       },
       {
         letter: 'B',
-        text: "Um combo individual generoso (ex: Combo de 20 peças).",
+        text: "Uma pedida ideal para 2 pessoas (Combo 08 - 20 peças + 2 temakis).",
         icon: "🍣",
         scoreType: 'classico_salmao'
       },
       {
         letter: 'C',
-        text: "Fome de gigante! Quero um banquete (ex: Combo de 50 peças).",
+        text: "Fome de gigante para até 4 pessoas (Combo Av. Paulista - 50 peças).",
         icon: "👑",
         scoreType: 'familia_banquete'
       },
       {
         letter: 'D',
-        text: "Algo especial para um jantar romântico ou em dupla.",
+        text: "Algo especial para compartilhar a dois.",
         icon: "❤️",
-        scoreType: 'expert_sashimi'
+        scoreType: 'classico_salmao'
       }
     ]
   },
@@ -173,9 +173,9 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
       },
       {
         letter: 'D',
-        text: "Combinado variado de lâminas e sushis especiais.",
+        text: "Combinado variado com menos arroz e muito recheio.",
         icon: "✨",
-        scoreType: 'expert_sashimi'
+        scoreType: 'classico_salmao'
       }
     ]
   },
@@ -193,15 +193,15 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
       },
       {
         letter: 'B',
-        text: "No final de semana reunido com a família ou amigos.",
+        text: "No final de semana reunido com a família ou amigos (Até 4 pessoas).",
         icon: "🎉",
         scoreType: 'familia_banquete'
       },
       {
         letter: 'C',
-        text: "Em uma data especial ou jantar a dois.",
+        text: "Em um jantar a dois (Indicado para 2 pessoas).",
         icon: "🥂",
-        scoreType: 'expert_sashimi'
+        scoreType: 'classico_salmao'
       },
       {
         letter: 'D',
@@ -219,19 +219,19 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     options: [
       {
         letter: 'A',
-        text: "Qualidade dos ingredientes e experiência do Chef.",
+        text: "Qualidade dos ingredientes e padrão adquirido na Av. Paulista.",
         icon: "👨‍🍳",
-        scoreType: 'expert_sashimi'
+        scoreType: 'familia_banquete'
       },
       {
         letter: 'B',
-        text: "Atendimento atencioso e entrega rápida.",
+        text: "Atendimento atencioso e ótimos hot rolls e temakis fritos.",
         icon: "⚡",
         scoreType: 'iniciante_hot'
       },
       {
         letter: 'C',
-        text: "Avaliações nota 5 no Google e recomendação de amigos.",
+        text: "Avaliações nota 5 no Google e recomendação para casais.",
         icon: "⭐",
         scoreType: 'classico_salmao'
       },
@@ -269,18 +269,6 @@ export const QUIZ_RESULTS: Record<string, QuizResultProfile> = {
     tags: ["Casal / Dupla", "20 Peças + 2 Temakis", "Menos Arroz + Recheio", "Favorito"],
     imageUrl: "https://res.cloudinary.com/gu3r4btn/image/upload/v1790106196/WhatsApp_Image_2026-09-22_at_4.42.16_PM_oci26c.jpg",
     whatsappMessage: "Olá, Sushi Paulista! Meu resultado no Quiz foi o *Combo 08 (20 peças + 2 temakis)*. Gostaria de pedir."
-  },
-  expert_sashimi: {
-    id: "expert_sashimi",
-    title: "Combinado Degustação do Chef Especial",
-    slogan: "Para Apreciadores de Lâminas Nobres e Cortes de São Paulo",
-    recommendedDish: "Combinado Premium do Chef (Sashimis Frescos + Dyo de Salmão + Niguiri)",
-    dishDescription: "Uma verdadeira obra de arte inspirada na experiência do Chef no Shopping Cidade São Paulo. Lâminas espessas de salmão cru selecionado, Dyos maçaricados e niguiris especiais.",
-    piecesCount: "26 Peças",
-    priceEstimate: "R$ 69,90",
-    tags: ["Sashimi Fresco", "Dyo Especial", "Técnica Paulista", "Experiência Nobre"],
-    imageUrl: "https://images.unsplash.com/photo-1534482421-64566f976cfa?auto=format&fit=crop&w=800&q=80",
-    whatsappMessage: "Olá, Sushi Paulista! Fiz o Quiz no site e meu resultado deu *Combinado Degustação do Chef*! Gostaria de fazer o pedido."
   },
   familia_banquete: {
     id: "familia_banquete",
