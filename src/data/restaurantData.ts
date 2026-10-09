@@ -256,7 +256,7 @@ export const QUIZ_RESULTS: Record<string, QuizResultProfile> = {
     priceEstimate: "R$ 44,90",
     tags: ["Hot Rolls", "Temakis Fritos", "Iniciantes", "Super Crocante"],
     imageUrl: "https://res.cloudinary.com/gu3r4btn/image/upload/v1790106196/WhatsApp_Image_2026-09-22_at_4.41.10_PM_qo5kad.jpg",
-    whatsappMessage: "Olá, Sushi Paulista! Meu resultado no Quiz foi o *Combo 05 (10 peças + 2 temakis)* para iniciantes. Gostaria de pedir."
+    whatsappMessage: "Olá, Sushi Paulista! Fiz o teste no site e meu resultado foi o *Combo 05 (10 peças + 2 temakis)* para iniciantes. Estou com dúvidas e gostaria de atendimento!"
   },
   classico_salmao: {
     id: "classico_salmao",
@@ -268,7 +268,7 @@ export const QUIZ_RESULTS: Record<string, QuizResultProfile> = {
     priceEstimate: "R$ 69,90",
     tags: ["Casal / Dupla", "20 Peças + 2 Temakis", "Menos Arroz + Recheio", "Favorito"],
     imageUrl: "https://res.cloudinary.com/gu3r4btn/image/upload/v1790106196/WhatsApp_Image_2026-09-22_at_4.42.16_PM_oci26c.jpg",
-    whatsappMessage: "Olá, Sushi Paulista! Meu resultado no Quiz foi o *Combo 08 (20 peças + 2 temakis)*. Gostaria de pedir."
+    whatsappMessage: "Olá, Sushi Paulista! Fiz o teste no site e meu resultado foi o *Combo 08 (20 peças + 2 temakis)*. Estou com dúvidas e gostaria de atendimento!"
   },
   familia_banquete: {
     id: "familia_banquete",
@@ -280,7 +280,7 @@ export const QUIZ_RESULTS: Record<string, QuizResultProfile> = {
     priceEstimate: "R$ 119,90",
     tags: ["Até 4 Pessoas", "Combo Av. Paulista", "50 Peças", "Padrão Chef SP"],
     imageUrl: "https://res.cloudinary.com/gu3r4btn/image/upload/v1790106195/WhatsApp_Image_2026-09-22_at_4.42.25_PM_kksrl2.jpg",
-    whatsappMessage: "Olá, Sushi Paulista! Meu resultado no Quiz foi o *Combo Av. Paulista - 50 peças*. Quero fazer meu pedido!"
+    whatsappMessage: "Olá, Sushi Paulista! Fiz o teste no site e meu resultado foi o *Combo Av. Paulista - 50 peças*. Estou com dúvidas e gostaria de atendimento!"
   }
 };
 

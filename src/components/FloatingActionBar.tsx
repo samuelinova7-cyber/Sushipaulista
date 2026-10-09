@@ -62,7 +62,7 @@ export function FloatingActionBar({ onOpenMenu, onScrollToQuiz }: FloatingAction
           <span className="relative z-10 font-extrabold uppercase tracking-wide">📖 Cardápio InstaDelivery</span>
         </a>
 
-        {/* 🟢 [ FAZER PEDIDO NO WHATSAPP ] */}
+        {/* 🟢 [ ESTOU COM DÚVIDAS ] */}
         <a
           href={getWhatsAppLink()}
           target="_blank"
@@ -73,7 +73,7 @@ export function FloatingActionBar({ onOpenMenu, onScrollToQuiz }: FloatingAction
           className="flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-xl sm:rounded-full bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-500 hover:to-green-500 text-white font-black text-xs sm:text-sm shadow-lg shadow-emerald-950/60 transition-all active:scale-95 border border-emerald-400/30 whitespace-nowrap"
         >
           <MessageCircle className="w-4 h-4 fill-white text-emerald-600" />
-          <span>💬 Pedir WhatsApp</span>
+          <span>Estou com Dúvidas</span>
         </a>
 
       </div>

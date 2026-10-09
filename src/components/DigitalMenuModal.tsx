@@ -213,7 +213,7 @@ export function DigitalMenuModal({ isOpen, onClose }: DigitalMenuModalProps) {
 
           <div className="flex items-center gap-2.5 w-full sm:w-auto">
             <a
-              href={getWhatsAppLink("Olá Sushi Paulista! Estou olhando o cardápio digital e gostaria de fazer meu pedido.")}
+              href={getWhatsAppLink("Olá Sushi Paulista! Estou olhando o cardápio digital e estou com dúvidas sobre o pedido.")}
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => playWhatsappTone()}
@@ -221,7 +221,7 @@ export function DigitalMenuModal({ isOpen, onClose }: DigitalMenuModalProps) {
               className="flex-1 sm:flex-initial flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition-all shadow-md"
             >
               <MessageCircle className="w-4 h-4 fill-white text-emerald-600" />
-              <span>Fazer Pedido Geral no WhatsApp</span>
+              <span>Estou com Dúvidas</span>
             </a>
 
             <button

@@ -1,7 +1,7 @@
 import { RESTAURANT_INFO } from '../data/restaurantData';
 
 export function getWhatsAppLink(customMessage?: string): string {
-  const defaultText = "Olá, Sushi Paulista! Vim pelo site e gostaria de ver o cardápio e fazer meu pedido 🍣";
+  const defaultText = "Olá, Sushi Paulista! Vim pelo site e estou com dúvidas sobre o cardápio e os pedidos 🍣";
   const message = encodeURIComponent(customMessage || defaultText);
   return `https://wa.me/${RESTAURANT_INFO.phoneRaw}?text=${message}`;
 }

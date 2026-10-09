@@ -658,7 +658,7 @@ export function QuizSection({ onOpenMenu }: QuizSectionProps) {
                   showSparkles={true}
                 />
 
-                {/* 🟢 [ FAZER PEDIDO VIA WHATSAPP ] */}
+                {/* 🟢 [ ESTOU COM DÚVIDAS ] */}
                 <a
                   href={getWhatsAppLink(result.whatsappMessage)}
                   target="_blank"
@@ -669,7 +669,7 @@ export function QuizSection({ onOpenMenu }: QuizSectionProps) {
                   className="group flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-500 hover:to-green-500 text-white font-extrabold text-xs sm:text-sm shadow-md shadow-emerald-950/60 hover:shadow-emerald-600/30 transition-all transform active:scale-98 border border-emerald-400/30 cursor-pointer"
                 >
                   <MessageCircle className="w-4 h-4 fill-white text-emerald-600" />
-                  <span>🟢 💬 FAZER PEDIDO VIA WHATSAPP</span>
+                  <span>Estou com Dúvidas</span>
                 </a>
               </div>
 

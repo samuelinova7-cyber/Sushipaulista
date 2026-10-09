@@ -167,7 +167,7 @@ export function Footer({
                 className="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition-colors shadow-md"
               >
                 <MessageCircle className="w-4 h-4 fill-white text-emerald-600" />
-                <span>Fazer Pedido via WhatsApp</span>
+                <span>Estou com Dúvidas</span>
               </a>
             </div>
           </div>

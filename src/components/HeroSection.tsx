@@ -71,7 +71,7 @@ export function HeroSection({ onOpenMenu, onScrollToQuiz, onScrollToLocation }: 
                 showSparkles={true}
               />
 
-              {/* 🟢 [ FAZER PEDIDO NO WHATSAPP ] */}
+              {/* 🟢 [ ESTOU COM DÚVIDAS ] */}
               <a
                 href={getWhatsAppLink()}
                 target="_blank"
@@ -82,7 +82,7 @@ export function HeroSection({ onOpenMenu, onScrollToQuiz, onScrollToLocation }: 
                 className="group relative inline-flex items-center justify-center gap-3 px-6 py-4 rounded-2xl bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-500 hover:to-green-500 text-white font-extrabold text-base sm:text-lg shadow-xl shadow-emerald-950/80 hover:shadow-emerald-600/40 transition-all transform active:scale-98 border border-emerald-400/40 cursor-pointer"
               >
                 <MessageCircle className="w-5 h-5 fill-white text-emerald-600" />
-                <span>💬 FAZER PEDIDO NO WHATSAPP</span>
+                <span>Estou com Dúvidas</span>
               </a>
             </div>
 

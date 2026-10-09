@@ -148,7 +148,7 @@ export function LocationSection({ onOpenMenu }: LocationSectionProps) {
                   className="w-full sm:flex-1 py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs flex items-center justify-center gap-2 shadow-lg shadow-emerald-950/50"
                 >
                   <MessageCircle className="w-4 h-4 fill-white text-emerald-600" />
-                  <span>Pedir no WhatsApp</span>
+                  <span>Estou com Dúvidas</span>
                 </a>
               </div>
             </div>

@@ -201,7 +201,7 @@ export function Header({
             className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition-all shadow-lg shadow-emerald-950/50 hover:shadow-emerald-600/30 active:scale-95"
           >
             <MessageCircle className="w-4 h-4 fill-white text-emerald-600" />
-            <span>Fazer Pedido</span>
+            <span>Estou com Dúvidas</span>
           </a>
         </div>
 
@@ -234,7 +234,7 @@ export function Header({
             onClick={() => playWhatsappTone()}
             id="header-mobile-quick-wpp"
             className="p-2 rounded-lg bg-emerald-600 text-white text-xs font-bold flex items-center justify-center shadow-md"
-            aria-label="Pedir no WhatsApp"
+            aria-label="Estou com Dúvidas no WhatsApp"
           >
             <MessageCircle className="w-4 h-4 fill-white text-emerald-600" />
           </a>
@@ -292,7 +292,7 @@ export function Header({
               className="w-full flex items-center justify-center gap-2 py-3 px-3 rounded-xl bg-emerald-600 text-white font-bold text-xs shadow-md"
             >
               <MessageCircle className="w-4 h-4 fill-white text-emerald-600" />
-              <span>💬 WhatsApp</span>
+              <span>Estou com Dúvidas</span>
             </a>
           </div>
 
